@@ -1,0 +1,19 @@
+main()
+{
+int a, i;
+int b=5,c;
+a = b+c;
+
+a+=1;
+int n;
+if(a==b)
+{
+	b=c;
+	a++;
+	
+	while(i<n)
+    {
+		i++;
+    }
+}
+}
