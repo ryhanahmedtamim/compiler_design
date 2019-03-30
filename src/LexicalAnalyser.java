@@ -37,6 +37,14 @@ public class LexicalAnalyser {
 			for(int j=0; j<syntax.length(); j++)
 			{
 				//System.out.println(divideBytoke(syntax.charAt(j)));
+				String commentString = "";
+				if(j<syntax.length()-1)
+					commentString = ""+syntax.charAt(j)+syntax.charAt(j+1);
+				
+				if(commentString.equals("//"))
+				{
+					break;
+				}
 
 				if(divideBytoke(syntax.charAt(j)))
 				{
@@ -99,6 +107,10 @@ public class LexicalAnalyser {
 	
 	
 	
+	public ArrayList<String> getLeximList() {
+		return leximList;
+	}
+
 	public void isError()
 	{
 		
