@@ -20,30 +20,7 @@ public class CompilerMain {
         Parser parser = new Parser(lexer);
         parser.program();
 		
-		/*
-		 * Scanner sc = new Scanner(System.in);
-		 * 
-		 * LexicalAnalyser lexicalAnalyser = new LexicalAnalyser(); String lineString =
-		 * ""; Scanner inFile = null;
-		 * 
-		 * 
-		 * 
-		 * try { FileInputStream textFile = new FileInputStream ("input.txt"); inFile =
-		 * new Scanner (textFile);
-		 * //System.out.println("File data.txt has been opened.");
-		 * 
-		 * while(inFile.hasNextLine()) { lineString = inFile.nextLine();
-		 * lexicalAnalyser.addSyntax(lineString); //System.out.println(oneLine); }
-		 * 
-		 * } catch (FileNotFoundException fnfe) {
-		 * System.out.println("File data.txt was not found!"); }
-		 * 
-		 * 
-		 * 
-		 * lexicalAnalyser.analysis();
-		 * 
-		 * System.out.println(lexicalAnalyser.toString());
-		 */
+		
 	}
 
 }
